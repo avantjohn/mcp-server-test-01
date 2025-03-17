@@ -1,0 +1,4 @@
+.boxShadow {
+  value: 0 4px 20px rgba(0, 0, 0, var(--0-3),) 0 0 0 1px rgba(0, 240, 255, var(--0-1));
+  weight: 0.7;
+}

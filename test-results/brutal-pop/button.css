@@ -1,0 +1,49 @@
+.button.primary {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-bold);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-small);
+  transition: all var(--duration-fast) var(--easing-easeOut);
+}
+
+.button.primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.button.primary:focus {
+  outline-offset: 4px;
+}
+
+.button.primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.button.secondary {
+  background-color: var(--color-backgroundAlt);
+  color: var(--color-textPrimary);
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-bold);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-small);
+  transition: all var(--duration-fast) var(--easing-easeOut);
+}
+
+.button.secondary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.button.secondary:focus {
+  outline-offset: 4px;
+}
+
+.button.secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}

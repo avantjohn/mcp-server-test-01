@@ -1,0 +1,14 @@
+.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: rgba(20, 20, 43, var(--0-5));
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: var(--color-accentLight);
+  weight: 0.8;
+}

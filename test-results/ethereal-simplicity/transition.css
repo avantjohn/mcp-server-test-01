@@ -1,0 +1,9 @@
+.transition {
+  value: all var(--duration-normal) var(--easing-easeOut);
+  weight: 0.7;
+}
+
+.transition {
+  value: border-color var(--duration-normal) var(--easing-easeOut);
+  weight: 0.7;
+}

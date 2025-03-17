@@ -1,0 +1,4 @@
+.fontWeight {
+  value: var(--font-weight-medium);
+  weight: 0.8;
+}

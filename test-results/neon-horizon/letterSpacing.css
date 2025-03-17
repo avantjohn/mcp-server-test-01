@@ -1,0 +1,4 @@
+.letterSpacing {
+  value: var(--typography-letterSpacing);
+  weight: 0.7;
+}

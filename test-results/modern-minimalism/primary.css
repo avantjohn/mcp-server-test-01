@@ -1,0 +1,14 @@
+.primary {
+  background: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--easing-easeOut,) transform var(--duration-fast) var(--easing-easeOut);
+  hover: [object Object];
+  focus: [object Object];
+  active: [object Object];
+  disabled: [object Object];
+}

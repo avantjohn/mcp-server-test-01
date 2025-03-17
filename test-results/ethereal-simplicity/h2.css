@@ -1,0 +1,8 @@
+.h2 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  letter-spacing: var(---0-01em);
+}

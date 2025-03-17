@@ -1,0 +1,22 @@
+.input.focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accentLight);
+  outline: none;
+}
+
+.input.disabled {
+  opacity: var(--0-6);
+  background-color: var(--color-backgroundAlt);
+  cursor: not-allowed;
+}
+
+.input.error {
+  border-color: var(--color-error);
+  focus: [object Object];
+}
+
+.input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accentLight);
+  outline: none;
+}

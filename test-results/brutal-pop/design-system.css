@@ -1,0 +1,276 @@
+:root {
+  --color-background: #ffde59;
+  --color-backgroundAlt: #ffffff;
+  --color-textPrimary: #000000;
+  --color-textSecondary: #333333;
+  --color-accent: #ff3d5a;
+  --color-accentLight: #ffebee;
+  --color-accentDark: #d50000;
+  --color-secondary: #3d00e6;
+  --color-secondaryLight: #e9e3ff;
+  --color-border: #000000;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+  --spacing-extraLarge: 64px;
+  --font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  --font-size-small: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 28px;
+  --font-size-extraLarge: 40px;
+  --font-size-xxlarge: 56px;
+  --font-weight-regular: 500;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.0;
+  --line-height-normal: 1.3;
+  --line-height-loose: 1.6;
+  --border-radius-small: 0px;
+  --border-radius-medium: 0px;
+  --border-radius-large: 0px;
+  --border-radius-pill: 999px;
+  --border-width-thin: 2px;
+  --border-width-medium: 4px;
+  --border-width-thick: 8px;
+  --shadow-small: 4px 4px 0px rgba(0, 0, 0, 1);
+  --shadow-medium: 6px 6px 0px rgba(0, 0, 0, 1);
+  --shadow-large: 10px 10px 0px rgba(0, 0, 0, 1);
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --easing-easeOut: ease-out;
+  --easing-easeIn: ease-in;
+  --easing-spring: cubic-bezier(0.2, 0.8, 0.2, 1.2);
+}
+
+.button.primary {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-bold);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-small);
+  transition: all var(--duration-fast) var(--easing-easeOut);
+}
+
+.button.primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.button.primary:focus {
+  outline-offset: 4px;
+}
+
+.button.primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.button.secondary {
+  background-color: var(--color-backgroundAlt);
+  color: var(--color-textPrimary);
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-bold);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-small);
+  transition: all var(--duration-fast) var(--easing-easeOut);
+}
+
+.button.secondary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.button.secondary:focus {
+  outline-offset: 4px;
+}
+
+.button.secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card {
+  background-color: var(--color-backgroundAlt);
+  color: var(--color-textPrimary);
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-medium);
+  transition: all var(--duration-normal) var(--easing-easeOut);
+}
+
+.card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: var(--shadow-large);
+}
+
+.card.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.card.padding {
+  value: var(--spacing-large);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: var(--shadow-medium);
+  weight: 0.9;
+}
+
+.card.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.card.transition {
+  value: all var(--duration-normal) var(--easing-easeOut);
+  weight: 0.6;
+}
+
+.card.hover {
+  transform: translate(-4px, -4px);
+  box-shadow: var(--shadow-large);
+}
+
+.heading.h1 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  transform: uppercase;
+  text-decoration: underline;
+}
+
+.heading.h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-small);
+  transform: uppercase;
+}
+
+.text.body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textPrimary);
+}
+
+.text.caption {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textSecondary);
+  font-style: italic;
+}
+
+.input.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.input.color {
+  value: var(--color-textPrimary);
+  weight: 0.9;
+}
+
+.input.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.input.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.input.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.input.boxShadow {
+  value: 4px 4px 0px rgba(0, 0, 0, 1);
+  weight: 0.9;
+}
+
+.input.fontSize {
+  value: var(--font-size-medium);
+  weight: 0.8;
+}
+
+.input.lineHeight {
+  value: var(--line-height-normal);
+  weight: 0.8;
+}
+
+.input.transition {
+  value: all var(--duration-fast) var(--easing-easeOut);
+  weight: 0.7;
+}
+
+.input.focus {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+.input:focus {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+.badge.backgroundColor {
+  value: var(--color-accent);
+  weight: 0.9;
+}
+
+.badge.color {
+  value: #ffffff;
+  weight: 0.9;
+}
+
+.badge.padding {
+  padding: var(--spacing-small) var(--spacing-medium);
+  weight: 0.8;
+}
+
+.badge.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.badge.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.badge.fontSize {
+  value: var(--font-size-small);
+  weight: 0.8;
+}
+
+.badge.fontWeight {
+  value: var(--font-weight-bold);
+  weight: 0.8;
+}
+
+.badge.transform {
+  value: rotate(-2deg);
+  weight: 0.7;
+}
+

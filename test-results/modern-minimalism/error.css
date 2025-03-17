@@ -1,0 +1,15 @@
+.error {
+  border-color: var(--color-error);
+  focus: [object Object];
+}
+
+.error {
+  background: rgba(229, 62, 62, var(--0-1));
+  color: var(--color-error);
+  border-left: var(--color-error) var(--border-width-medium) solid;
+}
+
+.error {
+  background: rgba(229, 62, 62, var(--0-1));
+  color: var(--color-error);
+}

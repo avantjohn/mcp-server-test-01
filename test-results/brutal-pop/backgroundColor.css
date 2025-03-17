@@ -1,0 +1,14 @@
+.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: var(--color-accent);
+  weight: 0.9;
+}

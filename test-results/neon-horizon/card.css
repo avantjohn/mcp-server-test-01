@@ -1,0 +1,48 @@
+.card {
+  background-color: var(--color-backgroundAlt);
+  color: var(--color-textPrimary);
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 240, 255, 0.1);
+  transition: all var(--duration-normal) var(--easing-easeOut);
+}
+
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 240, 255, 0.3), 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+/* Legacy styles below for backward compatibility */
+.card.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.card.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 240, 255, 0.1);
+  weight: 0.7;
+}
+
+.card.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.7;
+}
+
+.card.transition {
+  value: all var(--duration-normal) var(--easing-easeOut);
+  weight: 0.7;
+}
+
+.card.hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 240, 255, 0.3), 0 0 15px rgba(0, 240, 255, 0.2);
+}

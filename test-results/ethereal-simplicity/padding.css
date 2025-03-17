@@ -1,0 +1,19 @@
+.padding {
+  value: var(--spacing-large);
+  weight: 0.8;
+}
+
+.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.padding {
+  value: var(--spacing-xsmall) var(--spacing-small);
+  weight: 0.8;
+}
+
+.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}

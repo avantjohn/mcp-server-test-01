@@ -1,0 +1,5 @@
+.warning {
+  background-color: #fffaf0;
+  color: #a66321;
+  border-left: var(--border-width-medium) solid var(--color-warning);
+}

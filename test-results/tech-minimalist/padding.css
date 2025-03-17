@@ -1,0 +1,4 @@
+.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}

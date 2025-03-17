@@ -1,0 +1,14 @@
+.backgroundColor {
+  value: #ffffff;
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: #ffffff;
+  weight: 0.9;
+}
+
+.backgroundColor {
+  value: var(--color-accentLight);
+  weight: 0.8;
+}

@@ -1,0 +1,4 @@
+.hover {
+  transform: translate(-4px, -4px);
+  box-shadow: var(--shadow-large);
+}

@@ -1,0 +1,24 @@
+.card.backgroundColor {
+  value: var(--color-surface);
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.card.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: 0 4px 16px rgba(0, 0, 0, var(--0-3));
+  weight: 0.7;
+}
+
+.card.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.7;
+}

@@ -1,0 +1,24 @@
+.primary {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-large);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-medium);
+  box-shadow: none;
+  transition: all var(--duration-normal) var(--easing-easeOut);
+}
+
+.primary:hover {
+  background-color: var(--color-accentDark);
+  transform: translateY(-1px);
+}
+
+.primary:focus {
+  outline: 2px solid var(--color-accentLight);
+  outline-offset: 2px;
+}
+
+.primary:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,23 @@
+.secondary {
+  background-color: var(--color-accentLight);
+  color: var(--color-accent);
+  padding: var(--spacing-small) var(--spacing-large);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-medium);
+  box-shadow: none;
+  transition: all var(--duration-normal) var(--easing-easeOut);
+}
+
+.secondary:hover {
+  background-color: #dce5ff;
+}
+
+.secondary:focus {
+  outline: 2px solid var(--color-accentLight);
+  outline-offset: 2px;
+}
+
+.secondary:active {
+  transform: translateY(1px);
+}

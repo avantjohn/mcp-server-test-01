@@ -1,0 +1,9 @@
+.fontSize {
+  value: var(--font-size-medium);
+  weight: 0.8;
+}
+
+.fontSize {
+  value: var(--font-size-small);
+  weight: 0.8;
+}

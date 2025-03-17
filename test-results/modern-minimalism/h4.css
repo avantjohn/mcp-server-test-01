@@ -1,0 +1,8 @@
+.h4 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  letter-spacing: var(--typography-letterSpacing);
+  margin-bottom: var(--spacing-small);
+}

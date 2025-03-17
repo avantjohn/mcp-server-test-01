@@ -1,0 +1,29 @@
+.badge.backgroundColor {
+  value: var(--color-accentLight);
+  weight: 0.8;
+}
+
+.badge.color {
+  value: var(--color-accent);
+  weight: 0.9;
+}
+
+.badge.padding {
+  value: var(--spacing-xsmall) var(--spacing-small);
+  weight: 0.8;
+}
+
+.badge.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.8;
+}
+
+.badge.fontSize {
+  value: var(--font-size-small);
+  weight: 0.9;
+}
+
+.badge.fontWeight {
+  value: var(--font-weight-medium);
+  weight: 0.8;
+}

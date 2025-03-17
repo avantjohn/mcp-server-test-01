@@ -1,0 +1,4 @@
+.lineHeight {
+  value: var(--line-height-normal);
+  weight: 0.8;
+}

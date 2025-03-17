@@ -1,0 +1,8 @@
+.primary {
+  background: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  transition: var(--duration-fast) var(--easing-easeOut);
+}

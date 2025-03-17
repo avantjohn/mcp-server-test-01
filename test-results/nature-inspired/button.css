@@ -1,0 +1,23 @@
+.button.primary {
+  background-color: var(--color-accent);
+  text-color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-pill);
+  font-weight: var(--font-weight-medium);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, var(--0-15));
+  transition: var(--duration-normal) var(--easing-spring);
+  hover: [object Object];
+  focus: [object Object];
+  active: [object Object];
+}
+
+.button.secondary {
+  background-color: var(--color-secondaryLight);
+  text-color: var(--color-secondary);
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-pill);
+  font-weight: var(--font-weight-medium);
+  transition: var(--duration-normal) var(--easing-spring);
+  hover: [object Object];
+  focus: [object Object];
+}

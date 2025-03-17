@@ -1,0 +1,10 @@
+.info {
+  background: rgba(52, 152, 219, var(--0-1));
+  color: var(--color-info);
+  border-left: var(--color-info) var(--border-width-medium) solid;
+}
+
+.info {
+  background: rgba(52, 152, 219, var(--0-1));
+  color: var(--color-info);
+}

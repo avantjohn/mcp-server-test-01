@@ -1,0 +1,29 @@
+.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}

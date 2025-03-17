@@ -1,0 +1,623 @@
+{
+  "name": "Brutal Pop",
+  "slug": "brutal-pop",
+  "author": "Neo Design Collective",
+  "description": "A bold neobrutalist design system featuring high contrast colors, chunky elements, and playful, unconventional layouts",
+  "version": "1.0.0",
+  "attributes": {
+    "colors": {
+      "background": {
+        "value": "#ffde59",
+        "weight": 0.9
+      },
+      "backgroundAlt": {
+        "value": "#ffffff",
+        "weight": 0.7
+      },
+      "textPrimary": {
+        "value": "#000000",
+        "weight": 0.9
+      },
+      "textSecondary": {
+        "value": "#333333",
+        "weight": 0.8
+      },
+      "accent": {
+        "value": "#ff3d5a",
+        "weight": 0.9
+      },
+      "accentLight": {
+        "value": "#ffebee",
+        "weight": 0.7
+      },
+      "accentDark": {
+        "value": "#d50000",
+        "weight": 0.8
+      },
+      "secondary": {
+        "value": "#3d00e6",
+        "weight": 0.8
+      },
+      "secondaryLight": {
+        "value": "#e9e3ff",
+        "weight": 0.7
+      },
+      "border": {
+        "value": "#000000",
+        "weight": 0.9
+      }
+    },
+    "spacing": {
+      "small": {
+        "value": "8px",
+        "weight": 0.8
+      },
+      "medium": {
+        "value": "16px",
+        "weight": 0.9
+      },
+      "large": {
+        "value": "32px",
+        "weight": 0.8
+      },
+      "extraLarge": {
+        "value": "64px",
+        "weight": 0.7
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "value": "'Space Grotesk', 'Helvetica Neue', sans-serif",
+        "weight": 0.9
+      },
+      "fontSize": {
+        "small": {
+          "value": "16px",
+          "weight": 0.7
+        },
+        "medium": {
+          "value": "20px",
+          "weight": 0.9
+        },
+        "large": {
+          "value": "28px",
+          "weight": 0.8
+        },
+        "extraLarge": {
+          "value": "40px",
+          "weight": 0.7
+        },
+        "xxlarge": {
+          "value": "56px",
+          "weight": 0.6
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": "500",
+          "weight": 0.8
+        },
+        "medium": {
+          "value": "600",
+          "weight": 0.8
+        },
+        "bold": {
+          "value": "700",
+          "weight": 0.9
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "value": "1.0",
+          "weight": 0.7
+        },
+        "normal": {
+          "value": "1.3",
+          "weight": 0.9
+        },
+        "loose": {
+          "value": "1.6",
+          "weight": 0.6
+        }
+      }
+    },
+    "borders": {
+      "radius": {
+        "small": {
+          "value": "0px",
+          "weight": 0.9
+        },
+        "medium": {
+          "value": "0px",
+          "weight": 0.9
+        },
+        "large": {
+          "value": "0px",
+          "weight": 0.9
+        },
+        "pill": {
+          "value": "999px",
+          "weight": 0.6
+        }
+      },
+      "width": {
+        "thin": {
+          "value": "2px",
+          "weight": 0.9
+        },
+        "medium": {
+          "value": "4px",
+          "weight": 0.8
+        },
+        "thick": {
+          "value": "8px",
+          "weight": 0.7
+        }
+      }
+    },
+    "shadows": {
+      "small": {
+        "value": "4px 4px 0px rgba(0, 0, 0, 1)",
+        "weight": 0.9
+      },
+      "medium": {
+        "value": "6px 6px 0px rgba(0, 0, 0, 1)",
+        "weight": 0.8
+      },
+      "large": {
+        "value": "10px 10px 0px rgba(0, 0, 0, 1)",
+        "weight": 0.7
+      }
+    },
+    "animations": {
+      "duration": {
+        "fast": {
+          "value": "100ms",
+          "weight": 0.8
+        },
+        "normal": {
+          "value": "200ms",
+          "weight": 0.9
+        },
+        "slow": {
+          "value": "300ms",
+          "weight": 0.7
+        }
+      },
+      "easing": {
+        "easeOut": {
+          "value": "ease-out",
+          "weight": 0.9
+        },
+        "easeIn": {
+          "value": "ease-in",
+          "weight": 0.7
+        },
+        "spring": {
+          "value": "cubic-bezier(0.2, 0.8, 0.2, 1.2)",
+          "weight": 0.8
+        }
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "backgroundColor": {
+          "value": "colors.accent",
+          "weight": 0.9
+        },
+        "textColor": {
+          "value": "#ffffff",
+          "weight": 0.9
+        },
+        "padding": {
+          "value": "spacing.medium spacing.large",
+          "weight": 0.8
+        },
+        "borderRadius": {
+          "value": "borders.radius.small",
+          "weight": 0.9
+        },
+        "fontWeight": {
+          "value": "typography.fontWeight.bold",
+          "weight": 0.8
+        },
+        "border": {
+          "value": "borders.width.thin solid colors.border",
+          "weight": 0.9
+        },
+        "boxShadow": {
+          "value": "shadows.small",
+          "weight": 0.9
+        },
+        "transition": {
+          "value": "all animations.duration.fast animations.easing.easeOut",
+          "weight": 0.7
+        },
+        "hover": {
+          "transform": {
+            "value": "translate(-2px, -2px)",
+            "weight": 0.8
+          },
+          "boxShadow": {
+            "value": "6px 6px 0px rgba(0, 0, 0, 1)",
+            "weight": 0.8
+          }
+        },
+        "focus": {
+          "outlineOffset": {
+            "value": "4px",
+            "weight": 0.7
+          }
+        },
+        "active": {
+          "transform": {
+            "value": "translate(2px, 2px)",
+            "weight": 0.8
+          },
+          "boxShadow": {
+            "value": "0px 0px 0px rgba(0, 0, 0, 1)",
+            "weight": 0.8
+          }
+        }
+      },
+      "secondary": {
+        "backgroundColor": {
+          "value": "colors.backgroundAlt",
+          "weight": 0.8
+        },
+        "textColor": {
+          "value": "colors.textPrimary",
+          "weight": 0.9
+        },
+        "padding": {
+          "value": "spacing.medium spacing.large",
+          "weight": 0.8
+        },
+        "borderRadius": {
+          "value": "borders.radius.small",
+          "weight": 0.9
+        },
+        "fontWeight": {
+          "value": "typography.fontWeight.bold",
+          "weight": 0.8
+        },
+        "border": {
+          "value": "borders.width.thin solid colors.border",
+          "weight": 0.9
+        },
+        "boxShadow": {
+          "value": "shadows.small",
+          "weight": 0.9
+        },
+        "transition": {
+          "value": "all animations.duration.fast animations.easing.easeOut",
+          "weight": 0.7
+        },
+        "hover": {
+          "transform": {
+            "value": "translate(-2px, -2px)",
+            "weight": 0.8
+          },
+          "boxShadow": {
+            "value": "6px 6px 0px rgba(0, 0, 0, 1)",
+            "weight": 0.8
+          }
+        },
+        "focus": {
+          "outlineOffset": {
+            "value": "4px",
+            "weight": 0.7
+          }
+        },
+        "active": {
+          "transform": {
+            "value": "translate(2px, 2px)",
+            "weight": 0.8
+          },
+          "boxShadow": {
+            "value": "0px 0px 0px rgba(0, 0, 0, 1)",
+            "weight": 0.8
+          }
+        }
+      }
+    },
+    "card": {
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "padding": {
+        "value": "spacing.large",
+        "weight": 0.8
+      },
+      "borderRadius": {
+        "value": "borders.radius.small",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "boxShadow": {
+        "value": "6px 6px 0px rgba(0, 0, 0, 1)",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      },
+      "transition": {
+        "value": "transform animations.duration.fast animations.easing.easeOut, box-shadow animations.duration.fast animations.easing.easeOut",
+        "weight": 0.8
+      },
+      "hover": {
+        "transform": {
+          "value": "translate(-2px, -2px)",
+          "weight": 0.8
+        },
+        "boxShadow": {
+          "value": "8px 8px 0px rgba(0, 0, 0, 1)",
+          "weight": 0.8
+        }
+      }
+    },
+    "heading": {
+      "fontFamily": {
+        "value": "typography.fontFamily.heading",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "marginBottom": {
+        "value": "spacing.medium",
+        "weight": 0.8
+      },
+      "h1": {
+        "fontSize": {
+          "value": "typography.fontSize.xxlarge",
+          "weight": 0.9
+        },
+        "fontWeight": {
+          "value": "typography.fontWeight.bold",
+          "weight": 0.9
+        },
+        "textDecoration": {
+          "value": "underline",
+          "weight": 0.8
+        }
+      },
+      "h2": {
+        "fontSize": {
+          "value": "typography.fontSize.xlarge",
+          "weight": 0.9
+        },
+        "fontWeight": {
+          "value": "typography.fontWeight.bold",
+          "weight": 0.9
+        }
+      }
+    },
+    "text": {
+      "fontFamily": {
+        "value": "typography.fontFamily.body",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "body": {
+        "fontSize": {
+          "value": "typography.fontSize.medium",
+          "weight": 0.9
+        },
+        "lineHeight": {
+          "value": "typography.lineHeight.normal",
+          "weight": 0.8
+        }
+      },
+      "caption": {
+        "fontSize": {
+          "value": "typography.fontSize.small",
+          "weight": 0.9
+        },
+        "color": {
+          "value": "colors.textSecondary",
+          "weight": 0.8
+        }
+      }
+    },
+    "input": {
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "padding": {
+        "value": "spacing.small spacing.medium",
+        "weight": 0.8
+      },
+      "borderRadius": {
+        "value": "0",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      },
+      "fontSize": {
+        "value": "typography.fontSize.medium",
+        "weight": 0.8
+      },
+      "lineHeight": {
+        "value": "typography.lineHeight.normal",
+        "weight": 0.8
+      },
+      "focus": {
+        "borderColor": {
+          "value": "colors.accent",
+          "weight": 0.9
+        },
+        "outline": {
+          "value": "none",
+          "weight": 0.9
+        }
+      }
+    },
+    "nav": {
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "padding": {
+        "value": "spacing.medium",
+        "weight": 0.8
+      },
+      "borderBottom": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      }
+    },
+    "badge": {
+      "background": {
+        "value": "colors.secondary",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "padding": {
+        "value": "spacing.small spacing.medium",
+        "weight": 0.8
+      },
+      "borderRadius": {
+        "value": "0",
+        "weight": 0.9
+      },
+      "fontSize": {
+        "value": "typography.fontSize.small",
+        "weight": 0.8
+      },
+      "fontWeight": {
+        "value": "typography.fontWeight.bold",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thin solid colors.textPrimary",
+        "weight": 0.8
+      }
+    },
+    "modal": {
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "padding": {
+        "value": "spacing.large",
+        "weight": 0.8
+      },
+      "borderRadius": {
+        "value": "0",
+        "weight": 0.9
+      },
+      "boxShadow": {
+        "value": "12px 12px 0px rgba(0, 0, 0, 1)",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      }
+    },
+    "alert": {
+      "padding": {
+        "value": "spacing.medium",
+        "weight": 0.8
+      },
+      "borderRadius": {
+        "value": "0",
+        "weight": 0.9
+      },
+      "fontSize": {
+        "value": "typography.fontSize.medium",
+        "weight": 0.8
+      },
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      },
+      "success": {
+        "borderLeft": {
+          "value": "colors.accent borders.width.thick solid",
+          "weight": 0.9
+        }
+      },
+      "error": {
+        "borderLeft": {
+          "value": "#ff4d4d borders.width.thick solid",
+          "weight": 0.9
+        }
+      },
+      "warning": {
+        "borderLeft": {
+          "value": "#ffbb33 borders.width.thick solid",
+          "weight": 0.9
+        }
+      },
+      "info": {
+        "borderLeft": {
+          "value": "#33bbff borders.width.thick solid",
+          "weight": 0.9
+        }
+      }
+    },
+    "table": {
+      "width": {
+        "value": "100%",
+        "weight": 0.9
+      },
+      "borderCollapse": {
+        "value": "collapse",
+        "weight": 0.9
+      },
+      "background": {
+        "value": "colors.background",
+        "weight": 0.9
+      },
+      "color": {
+        "value": "colors.textPrimary",
+        "weight": 0.9
+      },
+      "border": {
+        "value": "borders.width.thick solid colors.textPrimary",
+        "weight": 0.9
+      },
+      "header": {
+        "background": {
+          "value": "colors.secondary",
+          "weight": 0.9
+        },
+        "fontWeight": {
+          "value": "typography.fontWeight.bold",
+          "weight": 0.9
+        }
+      }
+    }
+  }
+} 

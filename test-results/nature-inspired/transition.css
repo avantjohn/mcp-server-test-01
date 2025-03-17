@@ -1,0 +1,4 @@
+.transition {
+  value: var(--duration-normal) var(--easing-easeOut);
+  weight: 0.6;
+}

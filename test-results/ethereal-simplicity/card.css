@@ -1,0 +1,42 @@
+.card {
+  background-color: #ffffff;
+  color: var(--color-textPrimary);
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-small);
+  transition: box-shadow var(--duration-normal) var(--easing-easeOut);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-medium);
+}
+
+/* Legacy styles below for backward compatibility */
+.card.backgroundColor {
+  value: #ffffff;
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.card.padding {
+  value: var(--spacing-large);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: var(--shadow-medium);
+  weight: 0.8;
+}
+
+.card.transition {
+  value: all var(--duration-normal) var(--easing-easeOut);
+  weight: 0.7;
+}
+
+.card.hover {
+  box-shadow: var(--shadow-large);
+}

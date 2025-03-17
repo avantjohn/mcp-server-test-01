@@ -1,0 +1,72 @@
+.modal {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+  border: var(--border-width-thin, 1px) solid var(--color-accent-primary);
+  /* Added properties for better visibility and modern styling */
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1000;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(10, 10, 20, 0.75);
+  backdrop-filter: blur(4px);
+  z-index: 999;
+}
+
+.modal-header {
+  margin-bottom: var(--spacing-medium);
+  border-bottom: var(--border-width-thin, 1px) solid var(--color-divider);
+  padding-bottom: var(--spacing-medium);
+}
+
+.modal-title {
+  color: var(--color-accent-primary);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-wide, 0.05em);
+  margin: 0;
+}
+
+.modal-content {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-normal);
+  margin-bottom: var(--spacing-medium);
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-medium);
+  border-top: var(--border-width-thin, 1px) solid var(--color-divider);
+  padding-top: var(--spacing-medium);
+}
+
+.modal-close {
+  position: absolute;
+  top: var(--spacing-medium);
+  right: var(--spacing-medium);
+  color: var(--color-text-tertiary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-xsmall, 4px);
+  font-size: var(--font-size-large);
+  line-height: 1;
+  transition: color var(--transition-normal);
+}
+
+.modal-close:hover {
+  color: var(--color-accent-primary);
+} 

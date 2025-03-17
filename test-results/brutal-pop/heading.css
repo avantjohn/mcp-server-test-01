@@ -1,0 +1,18 @@
+.heading.h1 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  transform: uppercase;
+  text-decoration: underline;
+}
+
+.heading.h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-small);
+  transform: uppercase;
+}

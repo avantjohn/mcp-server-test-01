@@ -1,0 +1,38 @@
+.alert.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.alert.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.alert.fontSize {
+  value: var(--font-size-medium);
+  weight: 0.8;
+}
+
+.alert.success {
+  background-color: #f0faf0;
+  color: #2a6b2a;
+  border-left: var(--border-width-medium) solid var(--color-success);
+}
+
+.alert.error {
+  background-color: #fef5f5;
+  color: #c62828;
+  border-left: var(--border-width-medium) solid var(--color-error);
+}
+
+.alert.warning {
+  background-color: #fffaf0;
+  color: #a66321;
+  border-left: var(--border-width-medium) solid var(--color-warning);
+}
+
+.alert.info {
+  background-color: #f0f8ff;
+  color: #0d47a1;
+  border-left: var(--border-width-medium) solid var(--color-info);
+}

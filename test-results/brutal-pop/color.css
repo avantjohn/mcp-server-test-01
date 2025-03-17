@@ -1,0 +1,9 @@
+.color {
+  value: var(--color-textPrimary);
+  weight: 0.9;
+}
+
+.color {
+  value: #ffffff;
+  weight: 0.9;
+}

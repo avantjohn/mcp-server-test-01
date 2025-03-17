@@ -1,0 +1,122 @@
+:root {
+  --color-background: #121212;
+  --color-surface: #1e1e1e;
+  --color-textPrimary: #ffffff;
+  --color-textSecondary: #a0a0a0;
+  --color-accent: #00b8d4;
+  --color-accentLight: rgba(0, 184, 212, 0.2);
+  --color-border: #333333;
+  --spacing-xsmall: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+  --font-family: 'Roboto Mono', monospace;
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 18px;
+  --font-size-extraLarge: 24px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.8;
+  --border-radius-small: 2px;
+  --border-radius-medium: 4px;
+  --border-radius-large: 8px;
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+  --duration-slow: 400ms;
+  --easing-easeOut: cubic-bezier(0.0, 0.0, 0.2, 1);
+  --easing-easeIn: cubic-bezier(0.4, 0.0, 1, 1);
+}
+
+.button.primary {
+  background-color: var(--color-accent);
+  text-color: #000000;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--duration-fast) var(--easing-easeOut);
+  hover: [object Object];
+  focus: [object Object];
+  active: [object Object];
+}
+
+.button.secondary {
+  background-color: transparent;
+  text-color: var(--color-accent);
+  border: var(--border-width-thin) solid var(--color-accent);
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--duration-fast) var(--easing-easeOut);
+  hover: [object Object];
+  focus: [object Object];
+}
+
+.card.backgroundColor {
+  value: var(--color-surface);
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.card.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: 0 4px 16px rgba(0, 0, 0, var(--0-3));
+  weight: 0.7;
+}
+
+.card.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.7;
+}
+
+.heading.h1 {
+  font-size: var(--font-size-extraLarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  letter-spacing: var(---0-5px);
+}
+
+.heading.h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-small);
+}
+
+.text.body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textPrimary);
+}
+
+.text.caption {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textSecondary);
+  letter-spacing: var(--0-5px);
+}
+

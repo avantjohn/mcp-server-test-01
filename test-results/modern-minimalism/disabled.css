@@ -1,0 +1,5 @@
+.disabled {
+  opacity: var(--0-6);
+  background-color: var(--color-backgroundAlt);
+  cursor: not-allowed;
+}

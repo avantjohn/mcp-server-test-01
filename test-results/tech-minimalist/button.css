@@ -1,0 +1,29 @@
+.button.primary {
+  background-color: var(--color-accent);
+  text-color: #000000;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--duration-fast) var(--easing-easeOut);
+  hover: [object Object];
+  focus: [object Object];
+  active: [object Object];
+}
+
+.button.secondary {
+  background-color: transparent;
+  text-color: var(--color-accent);
+  border: var(--border-width-thin) solid var(--color-accent);
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--duration-fast) var(--easing-easeOut);
+  hover: [object Object];
+  focus: [object Object];
+}

@@ -1,0 +1,17 @@
+.heading.h1 {
+  font-size: var(--font-size-xxxlarge);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-large);
+  letter-spacing: var(---0-02em);
+}
+
+.heading.h2 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  letter-spacing: var(---0-01em);
+}

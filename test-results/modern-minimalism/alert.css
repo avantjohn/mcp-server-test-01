@@ -1,0 +1,23 @@
+.alert.success {
+  background: rgba(12, 170, 85, var(--0-1));
+  color: var(--color-success);
+  border-left: var(--color-success) var(--border-width-medium) solid;
+}
+
+.alert.error {
+  background: rgba(229, 62, 62, var(--0-1));
+  color: var(--color-error);
+  border-left: var(--color-error) var(--border-width-medium) solid;
+}
+
+.alert.warning {
+  background: rgba(246, 173, 55, var(--0-1));
+  color: var(--color-warning);
+  border-left: var(--color-warning) var(--border-width-medium) solid;
+}
+
+.alert.info {
+  background: rgba(52, 152, 219, var(--0-1));
+  color: var(--color-info);
+  border-left: var(--color-info) var(--border-width-medium) solid;
+}

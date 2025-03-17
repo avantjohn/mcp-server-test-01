@@ -1,0 +1,39 @@
+.badge.backgroundColor {
+  value: var(--color-accent);
+  weight: 0.9;
+}
+
+.badge.color {
+  value: #ffffff;
+  weight: 0.9;
+}
+
+.badge.padding {
+  padding: var(--spacing-small) var(--spacing-medium);
+  weight: 0.8;
+}
+
+.badge.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.badge.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.badge.fontSize {
+  value: var(--font-size-small);
+  weight: 0.8;
+}
+
+.badge.fontWeight {
+  value: var(--font-weight-bold);
+  weight: 0.8;
+}
+
+.badge.transform {
+  value: rotate(-2deg);
+  weight: 0.7;
+}

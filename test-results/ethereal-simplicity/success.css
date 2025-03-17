@@ -1,0 +1,5 @@
+.success {
+  background-color: #f0faf0;
+  color: #2a6b2a;
+  border-left: var(--border-width-medium) solid var(--color-success);
+}

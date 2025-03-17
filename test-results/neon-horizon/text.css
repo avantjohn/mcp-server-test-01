@@ -1,0 +1,21 @@
+.text.body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textPrimary);
+  letter-spacing: var(--letter-spacing-normal, 0);
+}
+
+.text.caption {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textSecondary);
+  letter-spacing: var(--letter-spacing-normal, 0);
+}
+
+/* For compatibility with older implementations */
+.textTransform {
+  value: uppercase;
+  weight: 0.7;
+}

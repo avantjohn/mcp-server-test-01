@@ -1,0 +1,4 @@
+.boxShadow {
+  value: var(--shadow-medium);
+  weight: 0.8;
+}

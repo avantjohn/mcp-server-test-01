@@ -1,0 +1,10 @@
+.warning {
+  background: rgba(246, 173, 55, var(--0-1));
+  color: var(--color-warning);
+  border-left: var(--color-warning) var(--border-width-medium) solid;
+}
+
+.warning {
+  background: rgba(246, 173, 55, var(--0-1));
+  color: var(--color-warning);
+}

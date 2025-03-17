@@ -1,0 +1,9 @@
+.color {
+  value: var(--color-textPrimary);
+  weight: 0.9;
+}
+
+.color {
+  value: var(--color-accent);
+  weight: 0.9;
+}

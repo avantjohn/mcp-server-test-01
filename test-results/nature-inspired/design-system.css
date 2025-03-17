@@ -1,0 +1,137 @@
+:root {
+  --color-background: #f8f5f0;
+  --color-surfaceLight: #ffffff;
+  --color-surfaceDark: #e6e0d4;
+  --color-textPrimary: #2d2a24;
+  --color-textSecondary: #5f5b53;
+  --color-accent: #4caf50;
+  --color-accentLight: #e8f5e9;
+  --color-accentDark: #388e3c;
+  --color-secondary: #795548;
+  --color-secondaryLight: #efebe9;
+  --color-border: #d7cfc2;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --spacing-extraLarge: 40px;
+  --font-family: 'Montserrat', sans-serif;
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-extraLarge: 28px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.6;
+  --line-height-loose: 1.8;
+  --border-radius-small: 6px;
+  --border-radius-medium: 12px;
+  --border-radius-large: 24px;
+  --border-radius-pill: 999px;
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --duration-fast: 200ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --easing-easeOut: cubic-bezier(0.3, 0.1, 0.3, 1);
+  --easing-easeIn: cubic-bezier(0.4, 0.0, 0.6, 1);
+  --easing-spring: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.button.primary {
+  background-color: var(--color-accent);
+  text-color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-pill);
+  font-weight: var(--font-weight-medium);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, var(--0-15));
+  transition: var(--duration-normal) var(--easing-spring);
+  hover: [object Object];
+  focus: [object Object];
+  active: [object Object];
+}
+
+.button.secondary {
+  background-color: var(--color-secondaryLight);
+  text-color: var(--color-secondary);
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-pill);
+  font-weight: var(--font-weight-medium);
+  transition: var(--duration-normal) var(--easing-spring);
+  hover: [object Object];
+  focus: [object Object];
+}
+
+.card.backgroundColor {
+  value: var(--color-surfaceLight);
+  weight: 0.9;
+}
+
+.card.borderRadius {
+  value: var(--border-radius-medium);
+  weight: 0.8;
+}
+
+.card.padding {
+  value: var(--spacing-large);
+  weight: 0.8;
+}
+
+.card.boxShadow {
+  value: 0 6px 15px rgba(0, 0, 0, var(--0-05));
+  weight: 0.7;
+}
+
+.card.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.6;
+}
+
+.card.transition {
+  value: var(--duration-normal) var(--easing-easeOut);
+  weight: 0.6;
+}
+
+.card.hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, var(--0-1));
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, var(--0-1));
+}
+
+.heading.h1 {
+  font-size: var(--font-size-extraLarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  margin-bottom: var(--spacing-medium);
+  letter-spacing: var(---0-5px);
+}
+
+.heading.h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-small);
+}
+
+.text.body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textPrimary);
+}
+
+.text.caption {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  color: var(--color-textSecondary);
+  font-style: italic;
+}
+

@@ -1,0 +1,10 @@
+.h1 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  letter-spacing: var(--typography-letterSpacing);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-medium);
+  text-shadow: 0 0 10px rgba(0, 240, 255, var(--0-5));
+}

@@ -1,0 +1,10 @@
+.success {
+  background: rgba(12, 170, 85, var(--0-1));
+  color: var(--color-success);
+  border-left: var(--color-success) var(--border-width-medium) solid;
+}
+
+.success {
+  background: rgba(12, 170, 85, var(--0-1));
+  color: var(--color-success);
+}

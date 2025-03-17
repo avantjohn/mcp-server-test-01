@@ -1,0 +1,24 @@
+.primary {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: var(--spacing-medium) var(--spacing-large);
+  border-radius: var(--border-radius-small);
+  font-weight: var(--font-weight-bold);
+  border: var(--border-width-thin) solid var(--color-border);
+  box-shadow: var(--shadow-small);
+  transition: all var(--duration-fast) var(--easing-easeOut);
+}
+
+.primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.primary:focus {
+  outline-offset: 4px;
+}
+
+.primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,56 @@
+.input.backgroundColor {
+  value: var(--color-backgroundAlt);
+  weight: 0.9;
+}
+
+.input.color {
+  value: var(--color-textPrimary);
+  weight: 0.9;
+}
+
+.input.padding {
+  value: var(--spacing-medium);
+  weight: 0.8;
+}
+
+.input.borderRadius {
+  value: var(--border-radius-small);
+  weight: 0.9;
+}
+
+.input.border {
+  value: var(--border-width-thin) solid var(--color-border);
+  weight: 0.9;
+}
+
+.input.boxShadow {
+  value: 4px 4px 0px rgba(0, 0, 0, 1);
+  weight: 0.9;
+}
+
+.input.fontSize {
+  value: var(--font-size-medium);
+  weight: 0.8;
+}
+
+.input.lineHeight {
+  value: var(--line-height-normal);
+  weight: 0.8;
+}
+
+.input.transition {
+  value: all var(--duration-fast) var(--easing-easeOut);
+  weight: 0.7;
+}
+
+.input.focus {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+.input:focus {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+  outline: none;
+}

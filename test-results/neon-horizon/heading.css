@@ -1,0 +1,20 @@
+.heading.h1 {
+  font-size: var(--font-size-xxlarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-textPrimary);
+  letter-spacing: var(--letter-spacing-wide, 0.05em);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-medium);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.heading.h2 {
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-accent);
+  letter-spacing: var(--letter-spacing-wide, 0.05em);
+  margin-bottom: var(--spacing-small);
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
+}

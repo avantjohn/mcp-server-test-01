@@ -1,0 +1,3 @@
+.hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, var(--0-4),) 0 0 0 1px rgba(0, 240, 255, var(--0-3),) 0 0 15px rgba(0, 240, 255, var(--0-2));
+}

@@ -1,0 +1,4 @@
+.backgroundColor {
+  value: var(--color-surfaceLight);
+  weight: 0.9;
+}

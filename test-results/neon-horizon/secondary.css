@@ -1,0 +1,28 @@
+.secondary {
+  background-color: transparent;
+  color: #ffffff;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-wide, 0.05em);
+  text-transform: uppercase;
+  border: var(--border-width-thin) solid #ff3ca5;
+  box-shadow: inset 0 0 0 1px #ff3ca5, 0 0 0 0 #ff3ca5;
+  transition: all var(--duration-normal) var(--easing-easeOut);
+  text-shadow: 0 0 2px rgba(224, 224, 255, 0.3);
+}
+
+.secondary:hover {
+  box-shadow: inset 0 0 0 1px #ff3ca5, 0 0 8px 2px rgba(255, 60, 165, 0.5);
+  text-shadow: 0 0 8px rgba(255, 60, 165, 0.8);
+  color: #ff3ca5;
+}
+
+.secondary:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px #ff3ca5, 0 0 0 2px rgba(255, 60, 165, 0.4);
+}
+
+.secondary:active {
+  transform: scale(0.98);
+}
